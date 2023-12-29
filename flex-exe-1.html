@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Flexbox Exercise</title>
+</head>
+<style>
+    .im{
+        width: 50px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .container{
+        padding: 10px 15px 10px 15px;
+        width: 400px;
+        margin: 20px 0 0 20px;
+        border-radius: 4px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    }
+    .inbox-label{
+        font-size: 14px;
+        color: rgb(120, 120, 120);
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    .email{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .email-content{
+        flex: 1;
+    }
+    .email-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3px;
+    }
+    .sender-name{
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    .send-time{
+        font-size: 14px;
+        color: rgb(120, 120, 120);
+    }
+    .subject{
+        font-weight:bold;
+        margin-bottom: 5px;
+        margin-left: 10px;
+    }
+    .message{
+        color: rgb(120, 120, 120);
+        margin-left: 10px;
+    }
+</style>
+<body>
+    <div class="container">
+
+        <div class="inbox-label">ALL INBOXES</div>
+        <div class="email">
+            <div class="sender-image">
+                <img src="icons/ad8d52d9-a2d0-4f30-8d8a-f40e6b9a4690-modified.png" class="im" alt="">
+            </div>
+            <div class="email-content">
+                <div class="email-header">
+                    <div class="sender-name">Chewy Promotions</div>
+                    <div class="send-time">4:58 PM</div>
+                </div>
+                <div class="subject">Biggest Sales of the year!</div>
+                <div class="message">Hey there! We're writing to tell you about our ....</div>
+            </div>
+        </div>
+
+        
+        <div class="email">
+            <div class="sender-image">
+                <img src="icons/ad8d52d9-a2d0-4f30-8d8a-f40e6b9a4690-modified.png" class="im" alt="">
+            </div>
+            <div class="email-content">
+                <div class="email-header">
+                    <div class="sender-name">Chewy Promotions</div>
+                    <div class="send-time">4:58 PM</div>
+                </div>
+                <div class="subject">Biggest Sales of the year!</div>
+                <div class="message">Hey there! We're writing to tell you about our ....</div>
+            </div>
+        </div>
+
+        <div class="email">
+            <div class="sender-image">
+                <img src="icons/ad8d52d9-a2d0-4f30-8d8a-f40e6b9a4690-modified.png" class="im" alt="">
+            </div>
+            <div class="email-content">
+                <div class="email-header">
+                    <div class="sender-name">Chewy Promotions</div>
+                    <div class="send-time">4:58 PM</div>
+                </div>
+                <div class="subject">Biggest Sales of the year!</div>
+                <div class="message">Hey there! We're writing to tell you about our ....</div>
+            </div>
+        </div>
+
+    </div>
+
+    
+    
+</body>
+</html>
